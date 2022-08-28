@@ -1,5 +1,5 @@
 import React from 'react';
-import { TransactionObject } from '@/types/cardano.types';
+import { TransactionObject } from 'types/cardano.types';
 
 type Props = {
   transaction: TransactionObject;

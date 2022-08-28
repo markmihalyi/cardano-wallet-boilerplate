@@ -5,7 +5,7 @@ import SendADAToAddress from './SendADAToAddress';
 import SendADAToPlutusScript from './SendADAToPlutusScript';
 import SendTokenToAddress from './SendTokenToAddress';
 import SendTokenToPlutusScript from './SendTokenToPlutusScript';
-import useCardano from '@/common/hooks/useCardano';
+import useCardano from 'common/hooks/useCardano';
 
 const WalletTransactions: React.FC = () => {
   const [currentTab, setCurrentTab] = React.useState<string>('sendADAToAddress');

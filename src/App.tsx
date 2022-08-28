@@ -1,9 +1,9 @@
-import { CardanoContextType } from './types/cardano.types';
+import { CardanoContextType } from 'types/cardano.types';
 import React from 'react';
-import WalletTransactions from '@/components/WalletTransactions';
-import { formatBalance } from '@/common/helpers/formatBalance';
-import { getWalletComponent } from '@/common/helpers/getWalletComponent';
-import useCardano from '@/common/hooks/useCardano';
+import WalletTransactions from 'components/WalletTransactions';
+import { formatBalance } from 'common/helpers/formatBalance';
+import { getWalletComponent } from 'common/helpers/getWalletComponent';
+import useCardano from 'common/hooks/useCardano';
 
 const App: React.FC = () => {
   const cardano: CardanoContextType = useCardano();

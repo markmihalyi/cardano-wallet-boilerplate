@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 
-import { API, CardanoContextType, CollatUtxos, ProtocolParams, Utxos } from '@/types/cardano.types';
+import { API, CardanoContextType, CollatUtxos, ProtocolParams, Utxos } from 'types/cardano.types';
 import {
   Address,
   AssetName,

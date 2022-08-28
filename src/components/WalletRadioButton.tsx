@@ -1,5 +1,5 @@
 import React from 'react';
-import useCardano from '@/common/hooks/useCardano';
+import useCardano from 'common/hooks/useCardano';
 
 type Props = {
   name: string;

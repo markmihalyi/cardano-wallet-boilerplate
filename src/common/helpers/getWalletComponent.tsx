@@ -1,4 +1,4 @@
-import WalletRadioButton from '@/components/WalletRadioButton';
+import WalletRadioButton from 'components/WalletRadioButton';
 
 export const getWalletComponent = (key: string) => {
   /**

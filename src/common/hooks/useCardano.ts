@@ -1,5 +1,5 @@
 import CardanoContext from '../providers/CardanoProvider';
-import { CardanoContextType } from '@/types/cardano.types';
+import { CardanoContextType } from 'types/cardano.types';
 import React from 'react';
 
 const useCardano = () => {
